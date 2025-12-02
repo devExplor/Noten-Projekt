@@ -94,9 +94,25 @@ function noteVonSarah(){
 
 
 function noteVonAnton(){
-   //erweitere den Code
+  //erweitere den Code
+  let eP = 59;
+  let gP = 80;
+  // nutze die oberen Funktionen und erweitere den Code
+  punkte = punkteBerechnen(eP, gP);
+  // note = noteBerechnen(punkte);
+  document.getElementById("anton_np").innerHTML = punkte;
+  document.getElementById("anton_note").innerHTML = note;
 }
 
 function noteVonKonrad(){
-   //erweitere den Code
+  //erweitere den Code
+  let eP = 63;
+  let gP = 80;
+  
+  // nutze die oberen Funktionen und erweitere den Code
+  punkte = punkteBerechnen(eP, gP);
+  // note = noteBerechnen(punkte);
+  
+  document.getElementById("konrad_np").innerHTML = punkte;
+  document.getElementById("konrad_note").innerHTML = note;
 }
