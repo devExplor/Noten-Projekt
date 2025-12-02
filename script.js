@@ -1,4 +1,4 @@
-
+let gP = 80;
 // die Methode bekommt als Parameter 
 function punkteBerechnen(erreichtePkt, gesamtPkt) {
   let prozent = (erreichtePkt / gesamtPkt)*100;
@@ -118,21 +118,24 @@ function noteBerechnen(notenPkt) {
   return note;
 }
 
+function deineNote(erreichtePkt, NotenPunktePerson, NotePerson){
+  punkte = punkteBerechnen(erreichtePkt, gP);
+  note = noteBerechnen(punkte);
+
+  document.getElementById(NotenPunktePerson).innerHTML = punkte;
+  document.getElementById(NotePerson).innerHTML = note;
+}
 
 // Hier werden die drei Button programmiert
 
 function noteVonSarah(){
   let eP = 36;
-  let gP = 80;
+  // let gP = 80;
   
+  np = "sarah_np";
+  note = "sarah_note";
   // nutze die oberen Funktionen und erweitere den Code
-  punkte = punkteBerechnen(eP, gP);
-  note = noteBerechnen(punkte);
-  
-  
-  document.getElementById("sarah_np").innerHTML = punkte;
-  document.getElementById("sarah_note").innerHTML = note;
-  
+  deineNote(eP, np, note)
 }
 
 
@@ -140,23 +143,23 @@ function noteVonSarah(){
 function noteVonAnton(){
   //erweitere den Code
   let eP = 59;
-  let gP = 80;
+  // let gP = 80;
   // nutze die oberen Funktionen und erweitere den Code
-  punkte = punkteBerechnen(eP, gP);
-  note = noteBerechnen(punkte);
-  document.getElementById("anton_np").innerHTML = punkte;
-  document.getElementById("anton_note").innerHTML = note;
+
+  np = "anton_np";
+  note = "anton_note";
+  // nutze die oberen Funktionen und erweitere den Code
+  deineNote(eP, np, note)
 }
 
 function noteVonKonrad(){
   //erweitere den Code
   let eP = 63;
-  let gP = 80;
+  // let gP = 80;
   
+
+  np = "konrad_np";
+  note = "konrad_note";
   // nutze die oberen Funktionen und erweitere den Code
-  punkte = punkteBerechnen(eP, gP);
-  note = noteBerechnen(punkte);
-  
-  document.getElementById("konrad_np").innerHTML = punkte;
-  document.getElementById("konrad_note").innerHTML = note;
+  deineNote(eP, np, note)
 }
