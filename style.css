@@ -1,0 +1,28 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+table {
+  width: 60%; /* Tabelle auf volle Breite ausdehnen */
+  border-collapse: collapse; /* Zellenränder zusammenführen */
+}
+
+td {
+  border: 1px solid black; /* Zellenränder mit dickem, schwarzen Rand zeichnen */
+  text-align: center; /* Inhalt der Zellen zentrieren */
+  padding: 10px; /* Innenabstand in Zellen festlegen */
+}
+
+/* Regeln für die erste Zeile der Tabelle */
+tr:first-child td {
+  background-color: lightgray; /* Hintergrundfarbe der Zellen in der ersten Zeile ändern */
+  font-weight: bold; /* Schrift fett formatieren */
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Notenberechnung</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Notenberechnung</h1>
+    
+    <table border="1">
+  <tr>
+    <td>Name</td>
+    <td>Erreichte Punktzahl</td>
+    <td>Notenpunkte</td>
+    <td>Note</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sarah</td>
+    <td id="sarah_ep">36</td>     <!--ereichte Punkte -->
+    <td id="sarah_np"> </td>      <!--Notenpunkte -->
+    <td id="sarah_note"> </td>    <!--Note -->
+    <td><button type="button" onclick="noteVonSarah();">
+      Berechnen
+      </button></td>
+  </tr>
+  <tr>
+    <td>Anton</td>
+    <td id="anton_ep">59</td>     <!--ereichte Punkte -->
+    <td id="anton_np"> </td>      <!--Notenpunkte -->
+    <td id="anton_note"> </td>    <!--Note -->
+   <td><button type="button" onclick="noteVonAnton();">
+      Berechnen
+      </button></td>
+  </tr>
+  <tr>
+    <td>Konrad</td>
+    <td>63</td>
+    <td> </td>
+    <td> </td>
+    <td></td>
+  </tr>
+</table>
+
+
+    
+  </body>
+</html>
