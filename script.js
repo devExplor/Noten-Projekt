@@ -39,7 +39,7 @@ function noteVonSarah(){
   let gP = 80;
   
   // nutze die oberen Funktionen und erweitere den Code
-  // punkte = punkteBerechnen(eP, gP);
+  punkte = punkteBerechnen(eP, gP);
   // note = noteBerechnen(punkte);
   
   document.getElementById("sarah_np").innerHTML = punkte;
