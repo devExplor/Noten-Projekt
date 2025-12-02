@@ -163,3 +163,32 @@ function noteVonKonrad(){
   // nutze die oberen Funktionen und erweitere den Code
   deineNote(eP, np, note)
 }
+
+function alleNotenBerechnen(){
+  let eP = 36;
+  // let gP = 80;
+  
+  np = "sarah_np";
+  note = "sarah_note";
+  // nutze die oberen Funktionen und erweitere den Code
+  deineNote(eP, np, note)
+
+  //erweitere den Code
+  let eP2 = 59;
+  // let gP = 80;
+  // nutze die oberen Funktionen und erweitere den Code
+
+  np = "anton_np";
+  note = "anton_note";
+  // nutze die oberen Funktionen und erweitere den Code
+  deineNote(eP2, np, note)
+
+  //erweitere den Code
+  let eP3 = 63;
+  // let gP = 80;
+
+  np = "konrad_np";
+  note = "konrad_note";
+  // nutze die oberen Funktionen und erweitere den Code
+  deineNote(eP3, np, note)
+}

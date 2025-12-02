@@ -26,3 +26,12 @@ tr:first-child td {
   background-color: lightgray; /* Hintergrundfarbe der Zellen in der ersten Zeile ändern */
   font-weight: bold; /* Schrift fett formatieren */
 }
+
+#AllBTN{
+  margin-top: 30px;
+  
+}
+button {
+  color: #373fff;
+  border-radius: 30px;
+}
