@@ -19,6 +19,40 @@ function punkteBerechnen(erreichtePkt, gesamtPkt) {
   } else if (prozent >= 75 && prozent < 80) {
     //erweitere den Code
     punkte = "11";
+  } else if (prozent >= 70 && prozent < 75) {
+    //erweitere den Code
+    punkte = "10";
+  } else if (prozent >= 65 && prozent < 70) {
+    //erweitere den Code
+    punkte = "9";
+  } else if (prozent >= 60 && prozent < 65) {
+    //erweitere den Code
+    punkte = "8";
+  }  else if (prozent >= 55 && prozent < 60) {
+    //erweitere den Code
+    punkte = "7";
+  } else if (prozent >= 50 && prozent < 55) {
+    //erweitere den Code
+    punkte = "6";
+  } else if (prozent >= 45 && prozent < 50) {
+    //erweitere den Code
+    punkte = "5";
+  } else if (prozent >= 36 && prozent < 45) {
+    //erweitere den Code
+    punkte = "4";
+  } else if (prozent >= 27 && prozent < 36) {
+    //erweitere den Code
+    punkte = "3";
+  } else if (prozent >= 18 && prozent < 27) {
+    //erweitere den Code
+    punkte = "2";
+  } else if (prozent >= 9 && prozent < 18) {
+    //erweitere den Code
+    punkte = "1";
+  } else if (prozent < 9){
+    punkte = "0";
+  }else{
+    punkte = "Es ist ein Fehler aufgetreten";
   }
 
   //erweitere den Code
