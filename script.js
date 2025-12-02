@@ -10,6 +10,15 @@ function punkteBerechnen(erreichtePkt, gesamtPkt) {
   } else if (prozent >= 90 && prozent < 95) {
     //erweitere den Code
     punkte = "14";
+  } else if (prozent >= 85 && prozent < 90) {
+    //erweitere den Code
+    punkte = "13";
+  } else if (prozent >= 80 && prozent < 85) {
+    //erweitere den Code
+    punkte = "12";
+  } else if (prozent >= 75 && prozent < 80) {
+    //erweitere den Code
+    punkte = "11";
   }
 
   //erweitere den Code
