@@ -138,8 +138,6 @@ function noteVonSarah(){
   deineNote(eP, np, note)
 }
 
-
-
 function noteVonAnton(){
   //erweitere den Code
   let eP = 59;
