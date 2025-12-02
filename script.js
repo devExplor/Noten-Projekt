@@ -68,6 +68,49 @@ function noteBerechnen(notenPkt) {
     note = "1+";
   } else if (notenPkt == 14) {
     //erweitere den Code
+    note = "1";
+  } else if (notenPkt == 13) {
+    //erweitere den Code
+    note = "1-";
+  } else if (notenPkt == 12) {
+    //erweitere den Code
+    note = "2+";
+  } else if (notenPkt == 11) {
+    //erweitere den Code
+    note = "2";
+  } else if (notenPkt == 10) {
+    //erweitere den Code
+    note = "2-";
+  } else if (notenPkt == 9) {
+    //erweitere den Code
+    note = "3+";
+  } else if (notenPkt == 8) {
+    //erweitere den Code
+    note = "3";
+  } else if (notenPkt == 7) {
+    //erweitere den Code
+    note = "3-";
+  } else if (notenPkt == 6) {
+    //erweitere den Code
+    note = "4+";
+  } else if (notenPkt == 5) {
+    //erweitere den Code
+    note = "4";
+  } else if (notenPkt == 4) {
+    //erweitere den Code
+    note = "4-";
+  } else if (notenPkt == 3) {
+    //erweitere den Code
+    note = "5+";
+  } else if (notenPkt == 2) {
+    //erweitere den Code
+    note = "5";
+  } else if (notenPkt == 1) {
+    //erweitere den Code
+    note = "5-";
+  } else if (notenPkt == 0) {
+    //erweitere den Code
+    note = "6";
   }
 
   //erweitere den Code
@@ -84,7 +127,8 @@ function noteVonSarah(){
   
   // nutze die oberen Funktionen und erweitere den Code
   punkte = punkteBerechnen(eP, gP);
-  // note = noteBerechnen(punkte);
+  note = noteBerechnen(punkte);
+  
   
   document.getElementById("sarah_np").innerHTML = punkte;
   document.getElementById("sarah_note").innerHTML = note;
@@ -99,7 +143,7 @@ function noteVonAnton(){
   let gP = 80;
   // nutze die oberen Funktionen und erweitere den Code
   punkte = punkteBerechnen(eP, gP);
-  // note = noteBerechnen(punkte);
+  note = noteBerechnen(punkte);
   document.getElementById("anton_np").innerHTML = punkte;
   document.getElementById("anton_note").innerHTML = note;
 }
@@ -111,7 +155,7 @@ function noteVonKonrad(){
   
   // nutze die oberen Funktionen und erweitere den Code
   punkte = punkteBerechnen(eP, gP);
-  // note = noteBerechnen(punkte);
+  note = noteBerechnen(punkte);
   
   document.getElementById("konrad_np").innerHTML = punkte;
   document.getElementById("konrad_note").innerHTML = note;
